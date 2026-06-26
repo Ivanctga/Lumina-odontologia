@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Clínica Odontológica Premium — Transforme seu sorriso com tecnologia avançada e atendimento humanizado. Implantes, Ortodontia, Clareamento e muito mais." />
+  <meta name="keywords" content="odontologia, clínica odontológica, implantes dentais, clareamento dental, ortodontia, harmonização facial" />
+  <meta property="og:title" content="Lumina Odontologia Premium" />
+  <meta property="og:description" content="Transforme seu sorriso com tecnologia e cuidado humanizado." />
+  <meta property="og:type" content="website" />
+  <title>Lumina Odontologia Premium</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/img/favicon.svg" />
+  <link rel="mask-icon" href="assets/img/favicon.svg" color="#2563EB" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       BOTÃO VOLTAR AO TOPO
+  ============================================================ -->
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ============================================================
+       WHATSAPP FLUTUANTE
+  ============================================================ -->
+  <a href="https://wa.me/5531999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="whatsapp-float" aria-label="Falar pelo WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Fale conosco</span>
+  </a>
+
+  <!-- ============================================================
+       HEADER / NAVBAR
+  ============================================================ -->
+  <header id="header" class="header">
+    <div class="container">
+      <nav class="navbar">
+
+        <!-- Logo -->
+        <a href="#home" class="logo">
+          <div class="logo-icon"><i class="fa-solid fa-tooth"></i></div>
+          <div class="logo-text">
+            <span class="logo-name">Lumina</span>
+            <span class="logo-tagline">Odontologia Premium</span>
+          </div>
+        </a>
+
+        <!-- Menu Desktop -->
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+          <li><a href="#galeria" class="nav-link">Clínica</a></li>
+
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+
+        <!-- CTA Navbar -->
+        <a href="#contato" class="btn btn-primary btn-nav">
+          <i class="fa-regular fa-calendar-check"></i>
+          Agendar Consulta
+        </a>
+
+        <!-- Hamburger Mobile -->
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="home" class="hero">
+    <div class="hero-bg-decor">
+      <div class="hero-circle hero-circle-1"></div>
+      <div class="hero-circle hero-circle-2"></div>
+      <div class="hero-circle hero-circle-3"></div>
+      <div class="hero-grid"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <!-- Texto -->
+        <div class="hero-text reveal">
+          <div class="hero-badge">
+            <i class="fa-solid fa-star"></i>
+            <span>Clínica 5 estrelas · Belo Horizonte</span>
+          </div>
+
+          <h1 class="hero-title">
+            Transforme seu<br />
+            <em>sorriso</em> com<br />
+            tecnologia &amp; cuidado
+          </h1>
+
+          <p class="hero-subtitle">
+            Atendimento humanizado aliado à tecnologia de ponta para entregar resultados extraordinários. Porque você merece o melhor.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contato" class="btn btn-primary btn-large">
+              <i class="fa-regular fa-calendar-check"></i>
+              Agendar Avaliação Gratuita
+            </a>
+            <a href="#servicos" class="btn btn-ghost btn-large">
+              Conhecer Serviços
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="hero-trust">
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>Profissionais certificados</span>
+            </div>
+            <div class="trust-sep">·</div>
+            <div class="trust-item">
+              <i class="fa-solid fa-clock"></i>
+              <span>Atendimento em até 24h</span>
+            </div>
+            <div class="trust-sep">·</div>
+            <div class="trust-item">
+              <i class="fa-solid fa-heart"></i>
+              <span>Ambiente acolhedor</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual / Cards -->
+        <div class="hero-visual reveal reveal-delay-2">
+          <div class="hero-image-wrapper">
+            <img src="assets/img/hero.jpg" alt="Interior moderno da clínica odontológica Lumina" class="hero-main-img" loading="lazy" />
+            <!-- Floating Stats -->
+            <div class="hero-stat-card stat-top-right">
+              <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+              <div class="stat-info">
+                <strong>+5.000</strong>
+                <span>pacientes satisfeitos</span>
+              </div>
+            </div>
+            <div class="hero-stat-card stat-bottom-left">
+              <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+              <div class="stat-info">
+                <strong>12 anos</strong>
+                <span>de excelência</span>
+              </div>
+            </div>
+            <div class="hero-stat-card stat-bottom-right">
+              <div class="stat-icon star-icon"><i class="fa-solid fa-star"></i></div>
+              <div class="stat-info">
+                <strong>4.9 / 5</strong>
+                <span>avaliação Google</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       NÚMEROS / ESTATÍSTICAS
+  ============================================================ -->
+  <section class="stats-strip">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-box reveal">
+          <span class="stat-num" data-target="5000">0</span><span class="stat-suffix">+</span>
+          <p>Pacientes Atendidos</p>
+        </div>
+        <div class="stat-box reveal reveal-delay-1">
+          <span class="stat-num" data-target="12">0</span><span class="stat-suffix"> anos</span>
+          <p>de Experiência</p>
+        </div>
+        <div class="stat-box reveal reveal-delay-2">
+          <span class="stat-num" data-target="98">0</span><span class="stat-suffix">%</span>
+          <p>Taxa de Satisfação</p>
+        </div>
+        <div class="stat-box reveal reveal-delay-3">
+          <span class="stat-num" data-target="15">0</span><span class="stat-suffix">+</span>
+          <p>Especialidades</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOBRE A CLÍNICA
+  ============================================================ -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+
+      <div class="sobre-grid">
+        <!-- Visual -->
+        <div class="sobre-visual reveal">
+          <div class="sobre-img-wrapper">
+            <img src="assets/img/about-dentist.jpg" alt="Dentista especializada realizando atendimento humanizado" class="sobre-img" loading="lazy" />
+            <div class="sobre-badge">
+              <i class="fa-solid fa-certificate"></i>
+              <div>
+                <strong>CFO Certificada</strong>
+                <span>Conselho Federal de Odontologia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Conteúdo -->
+        <div class="sobre-content reveal reveal-delay-1">
+          <div class="section-label">Sobre a Lumina</div>
+          <h2 class="section-title">Onde ciência e <em>estética</em> se encontram</h2>
+          <p class="sobre-text">
+            Fundada em 2012, a <strong>Lumina Odontologia Premium</strong> nasceu da visão de oferecer um cuidado odontológico que vai além do tratamento — uma experiência completa de saúde, bem-estar e transformação.
+          </p>
+          <p class="sobre-text">
+            Nossa equipe de especialistas combina formação de excelência com as tecnologias mais avançadas do mercado, sempre priorizando o conforto e o resultado excepcional de cada paciente.
+          </p>
+
+          <!-- Valores -->
+          <div class="valores-grid">
+            <div class="valor-item">
+              <div class="valor-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+              <div>
+                <strong>Missão</strong>
+                <p>Transformar vidas através de sorrisos saudáveis e confiantes.</p>
+              </div>
+            </div>
+            <div class="valor-item">
+              <div class="valor-icon"><i class="fa-solid fa-eye"></i></div>
+              <div>
+                <strong>Visão</strong>
+                <p>Ser referência em odontologia premium no Brasil.</p>
+              </div>
+            </div>
+            <div class="valor-item">
+              <div class="valor-icon"><i class="fa-solid fa-gem"></i></div>
+              <div>
+                <strong>Valores</strong>
+                <p>Ética, excelência, humanização e inovação constante.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contato" class="btn btn-primary">
+            Conhecer a Clínica
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVIÇOS
+  ============================================================ -->
+  <section id="servicos" class="servicos">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <div class="section-label">Nossos Serviços</div>
+        <h2 class="section-title">Tudo que você precisa para um <em>sorriso perfeito</em></h2>
+        <p class="section-sub">Tratamentos personalizados com a mais alta tecnologia e cuidado especializado.</p>
+      </div>
+
+      <div class="servicos-grid">
+
+        <div class="servico-card reveal">
+          <div class="servico-icon-wrap" style="--icon-color: #2563EB;">
+            <i class="fa-solid fa-teeth-open"></i>
+          </div>
+          <h3>Clareamento Dental</h3>
+          <p>Clarear o sorriso com segurança e resultado duradouro usando tecnologia LED e géis de última geração.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal reveal-delay-1">
+          <div class="servico-icon-wrap" style="--icon-color: #10B981;">
+            <i class="fa-solid fa-tooth"></i>
+          </div>
+          <h3>Implantes Dentais</h3>
+          <p>Recupere função e estética com implantes de titânio de alta performance, planejados com tomografia 3D.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal reveal-delay-2">
+          <div class="servico-icon-wrap" style="--icon-color: #8B5CF6;">
+            <i class="fa-solid fa-align-center"></i>
+          </div>
+          <h3>Ortodontia</h3>
+          <p>Alinhamento dental com aparelho convencional, autoligado ou alinhadores estéticos invisíveis.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal reveal-delay-3">
+          <div class="servico-icon-wrap" style="--icon-color: #F59E0B;">
+            <i class="fa-solid fa-face-smile"></i>
+          </div>
+          <h3>Harmonização Facial</h3>
+          <p>Procedimentos minimamente invasivos para realçar a beleza natural do seu rosto com segurança e harmonia.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal reveal-delay-1">
+          <div class="servico-icon-wrap" style="--icon-color: #06B6D4;">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3>Limpeza & Prevenção</h3>
+          <p>Profilaxia profissional, raspagem e orientações personalizadas para manter sua saúde bucal em dia.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal reveal-delay-2">
+          <div class="servico-icon-wrap" style="--icon-color: #EC4899;">
+            <i class="fa-solid fa-gem"></i>
+          </div>
+          <h3>Lentes de Contato Dental</h3>
+          <p>Facetas em porcelana ultrafinas para transformar o formato, cor e simetria do seu sorriso definitivamente.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DIFERENCIAIS
+  ============================================================ -->
+  <section id="diferenciais" class="diferenciais">
+    <div class="container">
+
+      <div class="diferenciais-inner">
+        <div class="diferenciais-left reveal">
+          <div class="section-label">Por que nos escolher</div>
+          <h2 class="section-title">Uma experiência <em>diferente</em> desde o primeiro momento</h2>
+          <p class="section-sub">Cada detalhe foi pensado para que você se sinta seguro, acolhido e transformado.</p>
+
+          <div class="dif-list">
+            <div class="dif-item reveal reveal-delay-1">
+              <div class="dif-num">01</div>
+              <div class="dif-content">
+                <h4>Atendimento Humanizado</h4>
+                <p>Escutamos cada paciente individualmente e elaboramos um plano totalmente personalizado.</p>
+              </div>
+            </div>
+            <div class="dif-item reveal reveal-delay-2">
+              <div class="dif-num">02</div>
+              <div class="dif-content">
+                <h4>Tecnologia de Última Geração</h4>
+                <p>Equipamentos digitais, tomografia cone beam, scanner intraoral e impressoras 3D.</p>
+              </div>
+            </div>
+            <div class="dif-item reveal reveal-delay-3">
+              <div class="dif-num">03</div>
+              <div class="dif-content">
+                <h4>Equipe Multiespecialista</h4>
+                <p>Dentistas com pós-graduação e especializações nas principais áreas da odontologia.</p>
+              </div>
+            </div>
+            <div class="dif-item reveal reveal-delay-4">
+              <div class="dif-num">04</div>
+              <div class="dif-content">
+                <h4>Ambiente Premium</h4>
+                <p>Clínica projetada para conforto máximo, com suítes de atendimento climatizadas e silenciosas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cards visuais -->
+        <div class="diferenciais-right reveal reveal-delay-2">
+          <div class="dif-cards">
+            <div class="dif-card dif-card-featured">
+              <i class="fa-solid fa-microscope"></i>
+              <h4>Diagnóstico por Imagem 3D</h4>
+              <p>Tomografia cone beam para planejamento cirúrgico de precisão máxima.</p>
+            </div>
+            <div class="dif-card">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+              <h4>Horários Flexíveis</h4>
+              <p>Atendemos de segunda a sábado, inclusive em horários alternativos.</p>
+            </div>
+            <div class="dif-card">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+              <h4>Sedação Consciente</h4>
+              <p>Para pacientes com ansiedade, oferecemos sedação segura e supervisionada.</p>
+            </div>
+            <div class="dif-card">
+              <i class="fa-solid fa-credit-card"></i>
+              <h4>Facilidade de Pagamento</h4>
+              <p>Parcelamos em até 24x no cartão e aceitamos convênios.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALERIA DE IMAGENS
+  ============================================================ -->
+  <section id="galeria" class="galeria">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Nossa Clínica</div>
+        <h2 class="section-title">Excelência em cada <em>detalhe</em></h2>
+        <p class="section-sub">Ambiente moderno e tecnológico projetado para o seu máximo conforto e segurança.</p>
+      </div>
+
+      <div class="galeria-grid">
+        <div class="galeria-card reveal">
+          <div class="galeria-img-wrap">
+            <img src="assets/img/clinica1.jpg" alt="Ambiente moderno da Lumina Odontologia" loading="lazy" />
+            <div class="galeria-overlay">
+              <span>Nossa Recepção</span>
+            </div>
+          </div>
+        </div>
+        <div class="galeria-card reveal reveal-delay-1">
+          <div class="galeria-img-wrap">
+            <img src="assets/img/clinica2.jpg" alt="Consultório odontológico de última geração" loading="lazy" />
+            <div class="galeria-overlay">
+              <span>Consultório Moderno</span>
+            </div>
+          </div>
+        </div>
+        <div class="galeria-card reveal reveal-delay-2">
+          <div class="galeria-img-wrap">
+            <img src="assets/img/clinica3.jpg" alt="Equipamentos tecnológicos e biossegurança" loading="lazy" />
+            <div class="galeria-overlay">
+              <span>Tecnologia de Ponta</span>
+            </div>
+          </div>
+        </div>
+        <div class="galeria-card reveal reveal-delay-3">
+          <div class="galeria-img-wrap">
+            <img src="assets/img/clinica4.jpg" alt="Sala de atendimento premium" loading="lazy" />
+            <div class="galeria-overlay">
+              <span>Conforto & Sofisticação</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ============================================================
+       CTA FINAL
+  ============================================================ -->
+  <section class="cta-section">
+    <div class="cta-bg-decor">
+      <div class="cta-blob cta-blob-1"></div>
+      <div class="cta-blob cta-blob-2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <div class="cta-badge">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Vagas limitadas esta semana</span>
+        </div>
+        <h2>Agende sua avaliação <em>hoje</em> e descubra o sorriso que você merece</h2>
+        <p>Consulta de avaliação gratuita, sem compromisso. Nossa equipe irá criar um plano exclusivo para você.</p>
+        <div class="cta-actions">
+          <a href="#contato" class="btn btn-white btn-large">
+            <i class="fa-regular fa-calendar-check"></i>
+            Quero Agendar Agora
+          </a>
+          <a href="https://wa.me/5531999999999" target="_blank" class="btn btn-outline-white btn-large">
+            <i class="fa-brands fa-whatsapp"></i>
+            Falar pelo WhatsApp
+          </a>
+        </div>
+        <p class="cta-note"><i class="fa-solid fa-lock"></i> Seus dados estão seguros. Não compartilhamos com terceiros.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTATO
+  ============================================================ -->
+  <section id="contato" class="contato">
+    <div class="container">
+
+      <div class="contato-grid">
+
+        <!-- Info -->
+        <div class="contato-info reveal">
+          <div class="section-label">Entre em Contato</div>
+          <h2 class="section-title">Vamos cuidar do seu <em>sorriso</em></h2>
+          <p>Agende sua consulta ou tire suas dúvidas. Nossa equipe está pronta para te atender.</p>
+
+          <div class="contato-items">
+            <div class="contato-item">
+              <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <strong>Endereço</strong>
+                <span>Av. do Contorno, 1234 — Funcionários, BH/MG</span>
+              </div>
+            </div>
+            <div class="contato-item">
+              <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong>Telefone</strong>
+                <span>(31) 3333-4444</span>
+              </div>
+            </div>
+            <div class="contato-item">
+              <div class="ci-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>(31) 99999-9999</span>
+              </div>
+            </div>
+            <div class="contato-item">
+              <div class="ci-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <strong>Horário de Atendimento</strong>
+                <span>Seg – Sex: 8h às 20h · Sáb: 8h às 14h</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-link" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <!-- Formulário -->
+        <div class="contato-form-wrapper reveal reveal-delay-1">
+          <form id="contactForm" class="contato-form" novalidate>
+            <h3>Agende sua consulta</h3>
+            <p class="form-sub">Preencha o formulário e entraremos em contato em até 2 horas.</p>
+
+            <div class="form-group">
+              <label for="nome">Nome completo *</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+              <span class="field-error" id="erroNome"></span>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="telefone">Telefone / WhatsApp *</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(31) 99999-9999" required />
+                <span class="field-error" id="erroTelefone"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+                <span class="field-error" id="erroEmail"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="servico">Serviço de interesse</label>
+              <select id="servico" name="servico">
+                <option value="">Selecione um serviço</option>
+                <option>Clareamento Dental</option>
+                <option>Implantes Dentais</option>
+                <option>Ortodontia</option>
+                <option>Harmonização Facial</option>
+                <option>Limpeza & Prevenção</option>
+                <option>Lentes de Contato Dental</option>
+                <option>Outro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos como podemos ajudar..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fa-regular fa-calendar-check"></i>
+              Enviar Agendamento
+            </button>
+
+            <div id="formSuccess" class="form-success" style="display:none;">
+              <i class="fa-solid fa-circle-check"></i>
+              <strong>Mensagem enviada!</strong>
+              <span>Em breve entraremos em contato. Obrigado!</span>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <div class="logo-icon"><i class="fa-solid fa-tooth"></i></div>
+            <div class="logo-text">
+              <span class="logo-name">Lumina</span>
+              <span class="logo-tagline">Odontologia Premium</span>
+            </div>
+          </a>
+          <p>Transformando sorrisos e vidas com tecnologia, cuidado e excelência desde 2012.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#galeria">Nossa Clínica</a></li>
+
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#servicos">Clareamento Dental</a></li>
+            <li><a href="#servicos">Implantes</a></li>
+            <li><a href="#servicos">Ortodontia</a></li>
+            <li><a href="#servicos">Harmonização Facial</a></li>
+            <li><a href="#servicos">Limpeza & Prevenção</a></li>
+            <li><a href="#servicos">Lentes de Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul class="footer-contact">
+            <li><i class="fa-solid fa-location-dot"></i><span>Av. do Contorno, 1234 — BH/MG</span></li>
+            <li><i class="fa-solid fa-phone"></i><span>(31) 3333-4444</span></li>
+            <li><i class="fa-brands fa-whatsapp"></i><span>(31) 99999-9999</span></li>
+            <li><i class="fa-solid fa-clock"></i><span>Seg–Sex: 8h–20h · Sáb: 8h–14h</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Lumina Odontologia Premium. Todos os direitos reservados.</p>
+        <p>CRO-MG 12345 · Desenvolvido com <i class="fa-solid fa-heart" style="color:#f56565;"></i> por agência digital</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
